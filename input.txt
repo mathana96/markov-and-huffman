@@ -1,0 +1,870 @@
+CHAPTER I The World and Theories 
+
+IN 1948, CLAUDE E. SHANNON published a paper called "A 
+Mathematical Theory of Communication" it appeared in book 
+form in 1949. Before that time, a few isolated workers had from 
+time to time taken steps toward a general theory of communication. 
+Now, twelve years later, communication theory, or information 
+theory as it is sometimes called, is an accepted field of research. 
+Several books on communication theory have been published, and 
+several international symposia and conferences have been held. 
+The Institute of Radio Engineers has a professional group on 
+information theory, whose learned Transactions appears quarterly, 
+and the journal Information and Control is largely devoted to 
+communication theory. 
+
+All of us use the words communication and information, and 
+we are unlikely to underestimate their importance. A modern 
+philosopher, A. J. Ayer, has commented on the wide meaning and 
+importance of communication in our lives. We communicate, he 
+observes, not only information, but also knowledge, error, opinions, 
+ideas, experiences, wishes, orders, emotions, feelings, moods. Heat 
+and motion can be communicated. So can strength and weakness 
+and disease. He cites other examples and comments on the 
+manifold manifestations and puzzling features of communication in 
+man's world. 
+
+Surely, communication being so various and so important, a 
+theory of communication, a theory of generally accepted soundness 
+and usefulness, must be of incomparable importance to all of us. 
+When we add to theory the word mathematical with all its 
+implications of rigor and magic, the attraction becomes almost 
+irresistible. Perhaps if we learn a few formulae our problems of 
+communication will be solved, and we shall become the masters 
+of information rather than the slaves of misinformation. 
+
+Unhappily, this is not the course of science. Some 2,300 years 
+ago, another philosopher, Aristotle, discussed in his Physics a 
+notion as universal as that of communication, that is, motion. 
+
+Aristotle defined motion as the fulfillment, insofar as it exists 
+potentially, of that which exists potentially. He included in the 
+concept of motion the increase and decrease of that which can be 
+increased or decreased, coming to and passing away, and also being 
+built. He spoke of three categories of motion, with respect to 
+magnitude, affection, and place. He found, indeed, as he said, as 
+many types of motion as there are meanings of the word is. 
+
+Here we see motion in all its manifest complexity. The complexity 
+is perhaps a little bewildering to us, for the associations of 
+words differ in different languages, and we would not necessarily 
+associate motion with all the changes of which Aristotle speaks. 
+
+How puzzling this universal matter of motion must have been 
+to the followers of Aristotle. It remained puzzling for over two 
+millennia, until Newton enunciated the laws which engineers still 
+use in designing machines and astronomers in studying the motions 
+of stars, planets, and satellites. While later physicists have found 
+that Newton's laws are only the special forms which more general 
+laws assume when velocities are small compared with that of light 
+and when the scale of the phenomena is large compared with the 
+atom, they are a living part of our physics rather than a historical 
+monument. Surely, when motion is so important a part of our 
+world, we should study Newton's laws of motion. They say: 
+
+1. A body continues at rest or in motion with a constant velocity 
+in a straight line unless acted upon by a force. 
+
+2. The change in velocity of a body is in the direction of the force 
+acting on it, and the magnitude of the change is proportional to 
+the force acting on the body times the time during which the force 
+acts, and is inversely proportional to the mass of the body.  
+
+3. Whenever a first body exerts a force on a second body, the 
+second body exerts an equal and oppositely directed force on the 
+first body. 
+
+To these laws Newton added the universal law of gravitation: 
+
+4. Two particles of matter attract one another with a force act- 
+ing along the line connecting them, a force which is proportional 
+to the product of the masses of the particles and inversely 
+proportional to the square of the distance separating them. 
+
+Newton's laws brought about a scientific and a philosophical 
+revolution. Using them, Laplace reduced the solar system to an 
+explicable machine. They have formed the basis of aviation and 
+rocketry, as well as of astronomy. Yet, they do little to answer many 
+of the questions about motion which Aristotle considered. New- 
+ton's laws solved the problem of motion as Newton defined it, 
+not of motion in all the senses in which the word could be used in 
+the Greek of the fourth century before our Lord or in the English 
+of the twentieth century after. 
+
+Our speech is adapted to our daily needs or, perhaps, to the needs 
+of our ancestors. We cannot have a separate word for every distinct 
+object and for every distinct event; if we did we should be forever 
+coining words, and communication would be impossible. In order 
+to have language at all, many things or many events must be 
+referred to by one word. It is natural to say that both men and 
+horses run (though we may prefer to say that horses gallop) and 
+convenient to say that a motor runs and to speak of a run in a 
+stocking or a run on a bank. 
+
+The unity among these concepts lies far more in our human 
+language than in any physical similarity with which we can expect 
+science to deal easily and exactly. It would be foolish to seek some 
+elegant, simple, and useful scientific theory of running which would 
+embrace runs of salmon and runs in hose. It would be equally 
+foolish to try to embrace in one theory all the motions discussed 
+by Aristotle or all the sorts of communication and information 
+which later philosophers have discovered. 
+
+In our everyday language, we use words in a way which is 
+convenient in our everyday business. Except in the study of language 
+itself, science does not seek understanding by studying words and 
+their relations. Rather, science looks for things in nature, including 
+
+our human nature and activities, which can be grouped together 
+and understood. Such understanding is an ability to see what 
+complicated or diverse events really do have in common (the 
+planets in the heavens and the motions of a whirling skater on ice, 
+for instance) and to describe the behavior accurately and simply. 
+
+The words used in such scientific descriptions are often drawn 
+from our everyday vocabulary. Newton used force, mass, velocity, 
+and attraction. When used in science, however, a particular 
+meaning is given to such words, a meaning narrow and often new. We 
+cannot discuss in Newton's terms force of circumstance, mass 
+media, or the attraction of Brigitte Bardot. Neither should we 
+expect that communication theory will have something sensible to 
+say about every question we can phrase using the words 
+communication or information. 
+
+A valid scientific theory seldom if ever offers the solution to the 
+pressing problems which we repeatedly state. It seldom supplies 
+a sensible answer to our multitudinous questions. Rather than 
+rationalizing our ideas, it discards them entirely, or, rather, it 
+leaves them as they were. It tells us in a fresh and new way what 
+aspects of our experience can profitably be related and simply 
+understood. In this book, it will be our endeavor to seek out the 
+ideas concerning communication which can be so related and 
+understood. 
+
+When the portions of our experience which can be related have 
+been singled out, and when they have been related and understood, 
+we have a theory concerning these matters. Newton's laws of 
+motion form an important part of theoretical physics, a field called 
+mechanics. The laws themselves are not the whole of the theory; 
+they are merely the basis of it, as the axioms or postulates of 
+geometry are the basis of geometry. The theory embraces both the 
+assumptions themselves and the mathematical working out of the 
+logical consequences which must necessarily follow from the 
+assumptions. Of course, these consequences must be in accord 
+with the complex phenomena of the world about us if the theory 
+is to be a valid theory, and an invalid theory is useless. 
+
+The ideas and assumptions of a theory determine the generality 
+of the theory, that is, to how wide a range of phenomena the 
+theory applies. Thus, Newton's laws of motion and of gravitation 
+
+
+
+The World and Theories 5 
+
+are very general; they explain the motion of the planets, the 
+timekeeping properties of a pendulum, and the behavior of all sorts of 
+machines and mechanisms. They do not, however, explain radio 
+waves. 
+
+Maxwell's equations 1 explain all (non-quantum) electrical 
+phenomena; they are very general. A branch of electrical theory called 
+network theory deals with the electrical properties of electrical 
+circuits, or networks, made by interconnecting three sorts of 
+idealized electrical structures: resistors (devices such as coils of thin, 
+poorly conducting wire or films of metal or carbon, which impede 
+the flow of current), inductors (coils of copper wire, sometimes 
+wound on magnetic cores), and capacitors (thin sheets of metal 
+separated by an insulator or dielectric such as mica or plastic; the 
+Leyden jar was an early form of capacitor). Because network 
+theory deals only with the electrical behavior of certain specialized 
+and idealized physical structures, while Maxwell's equations 
+describe the electrical behavior of any physical structure, a physicist 
+would say that network theory is less general than are Maxwell's 
+equations, for Maxwell's equations cover the behavior not only of 
+idealized electrical networks but of all physical structures and 
+include the behavior of radio waves, which lies outside of the scope 
+of network theory. 
+
+Certainly, the most general theory, which explains the greatest 
+range of phenomena, is the most powerful and the best; it can 
+always be specialized to deal with simple cases. That is why 
+physicists have sought a unified field theory to embrace mechanical 
+laws and gravitation and all electrical phenomena. It might, indeed, 
+seem that all theories could be ranked in order of generality, and, 
+if this is possible, we should certainly like to know the place of 
+communication theory in such a hierarchy. 
+
+Unfortunately, life isn't as simple as this. In one sense, network 
+theory is less general than Maxwell's equations. In another sense, 
+
+1 In 1873, in his treatise Electrictity and Magnetism, James Clerk Maxwell pre- 
+sented and fully explained for the first time the natural laws relating electric and 
+magnetic fields and electric currents. He showed that there should be electromagnetic 
+waves (radio waves) which travel with the speed of light. Hertz later demonstrated 
+these experimentally, and we now know that light is electromagnetic waves. Max- 
+well's equations are the mathematical statement of Maxwell's theory of electricity 
+and magnetism. They are the foundation of all electric art. 
+
+however, it is more general, for all the mathematical results of 
+network theory hold for vibrating mechanical systems made up of 
+idealized mechanical components as well as for the behavior of 
+interconnections of idealized electrical components. In mechanical 
+applications, a spring corresponds to a capacitor, a mass to an 
+inductor, and a dashpot or damper, such as that used in a door 
+closer to keep the door from slamming, corresponds to a resistor. 
+In fact, network theory might have been developed to explain the 
+behavior of mechanical systems, and it is so used in the field of 
+acoustics. The fact that network theory evolved from the study of 
+idealized electrical systems rather than from the study of idealized 
+mechanical systems is a matter of history, not of necessity. 
+
+Because all of the mathematical results of network theory apply 
+to certain specialized and idealized mechanical systems, as well as 
+to certain specialized and idealized electrical systems, we can say 
+that in a sense network theory is more general than Maxwell's 
+equations, which do not apply to mechanical systems at all. In 
+another sense, of course, Maxwell's equations are more general 
+than network theory, for Maxwell's equations apply to all electrical 
+systems, not merely to a specialized and idealized class of electrical 
+circuits. 
+
+To some degree we must simply admit that this is so, without 
+being able to explain the fact fully. Yet, we can say this much. 
+Some theories are very strongly physical theories. Newton's laws 
+and Maxwell's equations are such theories. Newton's laws deal 
+with mechanical phenomena; Maxwell's equations deal with 
+electrical phenomena. Network theory is essentially a mathematical 
+theory. The terms used in it can be given various physical 
+meanings. The theory has interesting things to say about different 
+physical phenomena, about mechanical as well as electrical vibrations. 
+
+Often a mathematical theory is the offshoot of a physical theory 
+or of physical theories. It can be an elegant mathematical 
+formulation and treatment of certain aspects of a general physical theory. 
+Network theory is such a treatment of certain physical behavior 
+common to electrical and mechanical devices. A branch of 
+mathematics called potential theory treats problems common to electric, 
+magnetic, and gravitational fields and, indeed, in a degree to 
+aerodynamics. Some theories seem, however, to be more mathematical 
+than physical in their very inception. 
+
+The World and Theories 1 
+
+We use many such mathematical theories in dealing with the 
+physical world. Arithmetic is one of these. If we label one of a 
+group of apples, dogs, or men 1, another 2, and so on, and if we 
+have used up just the first 16 numbers when we have labeled all 
+members of the group, we feel confident that the group of objects 
+can be divided into two equal groups each containing 8 objects 
+(16 -r- 2 = 8) or that the objects can be arranged in a square 
+array of four parallel rows of four objects each (because 16 is a 
+perfect square; 16 = 4 x 4). Further, if we line the apples, dogs, 
+or men up in a row, there are 2,092,278,988,800 possible sequences 
+in which they can be arranged, corresponding to the 
+2,092,278,988,800 different sequences of the integers 1 through 16. 
+If we used up 13 rather than 16 numbers in labeling the complete 
+collection of objects, we feel equally certain that the collection 
+could not be divided into any number of equal heaps, because 13 is 
+a prime number and cannot be expressed as a product of factors. 
+
+This seems not to depend at all on the nature of the objects. 
+Insofar as we can assign numbers to the members of any collection 
+of objects, the results we get by adding, subtracting, multiplying, 
+and dividing numbers or by arranging the numbers in sequence 
+hold true. The connection between numbers and collections of 
+objects seems so natural to us that we may overlook the fact that 
+arithmetic is itself a mathematical theory which can be applied to 
+nature only to the degree that the properties of numbers correspond 
+to properties of the physical world. 
+
+Physicists tell us that we can talk sense about the total number 
+of a group of elementary particles, such as electrons, but we can't 
+assign particular numbers to particular particles because the 
+particles are in a very real sense indistinguishable. Thus, we can't 
+talk about arranging such particles in different orders, as numbers 
+can be arranged in different sequences. This has important 
+consequences in a part of physics called statistical mechanics. We may 
+also note that while Euclidean geometry is a mathematical theory 
+which serves surveyors and navigators admirably in their practical 
+concerns, there is reason to believe that Euclidean geometry is not 
+quite accurate in describing astronomical phenomena. 
+
+How can we describe or classify theories? We can say that a 
+theory is very narrow or very general in its scope. We can also 
+distinguish theories as to whether they are strongly physical or 
+
+
+
+8 Symbols, Signals and Noise 
+
+strongly mathematical. Theories are strongly physical when they 
+describe very completely some range of physical phenomena, 
+which in practice is always limited. Theories become more 
+mathematical or abstract when they deal with an idealized class of 
+phenomena or with only certain aspects of phenomena. Newton's 
+laws are strongly physical in that they afford a complete description 
+of mechanical phenomena such as the motions of the planets or 
+the behavior of a pendulum. Network theory is more toward the 
+mathematical or abstract side in that it is useful in dealing with a 
+variety of idealized physical phenomena. Arithmetic is very 
+mathematical and abstract; it is equally at home with one particular 
+property of many sorts of physical entities, with numbers of dogs, 
+numbers of men, and (if we remember that electrons are 
+indistinguishable) with numbers of electrons. It is even useful in 
+reckoning numbers of days. 
+
+In these terms, communication theory is both very strongly 
+mathematical and quite general. Although communication theory 
+grew out of the study of electrical communication, it attacks 
+problems in a very abstract and general way. It provides, in the bit, a 
+universal measure of amount of information in terms of choice or 
+uncertainty. Specifying or learning the choice between two equally 
+probable alternatives, which might be messages or numbers to be 
+transmitted, involves one bit of information. Communication 
+theory tells us how many bits of information can be sent per second 
+over perfect and imperfect communication channels in terms of 
+rather abstract descriptions of the properties of these channels. 
+Communication theory tells us how to measure the rate at which 
+a message source, such as a speaker or a writer, generates 
+information. Communication theory tells us how to represent, or encode, 
+messages from a particular message source efficiently for 
+transmission over a particular sort of channel, such as an electrical 
+circuit, and it tells us when we can avoid errors in transmission. 
+
+Because communication theory discusses such matters in very 
+general and abstract terms, it is sometimes difficult to use the 
+understanding it gives us in connection with particular, practical 
+problems. However, because communication theory has such an 
+abstract and general mathematical form, it has a very broad field 
+of application. Communication theory is useful in connection with 
+written and spoken language, the electrical and mechanical 
+transmission of messages, the behavior of machines, and, perhaps, the 
+behavior of people. Some feel that it has great relevance and 
+importance to physics in a way that we shall discuss much later 
+in this book. 
+
+Primarily, however, communication theory is, as Shannon described 
+it, a mathematical theory of communication. The concepts 
+are formulated in mathematical terms, of which widely different 
+physical examples can be given. Engineers, psychologists, and 
+physicists may use communication theory, but it remains a 
+mathematical theory rather than a physical or psychological 
+theory or an engineering art. 
+
+It is not easy to present a mathematical theory to a general 
+audience, yet communication theory is a mathematical theory, 
+and to pretend that one can discuss it while avoiding mathematics 
+entirely would be ridiculous. Indeed, the reader may be startled 
+to find equations and formulae in these pages; these state 
+accurately ideas which are also described in words, and I 
+have included an appendix on mathematical notation to help 
+the nonmathematical reader who wants to read the equations aright. 
+
+I am aware, however, that mathematics calls up chiefly unpleasant 
+pictures of multiplication, division, and perhaps square roots, 
+as well as the possibly traumatic experiences of high-school 
+classrooms. This view of mathematics is very misleading, for it places 
+emphasis on special notation and on tricks of manipulation, rather 
+than on the aspect of mathematics that is most important to 
+mathematicians. Perhaps the reader has encountered theorems and 
+proofs in geometry; perhaps he has not encountered them at all, 
+yet theorems and proofs are of primary importance in all 
+mathematics, pure and applied. The important results of information 
+theory are stated in the form of mathematical theorems, and these 
+are theorems only because it is possible to prove that they are true 
+statements. 
+
+Mathematicians start out with certain assumptions and definitions, 
+and then by means of mathematical arguments or proofs they 
+are able to show that certain statements or theorems are true. This 
+is what Shannon accomplished in his "Mathematical Theory of 
+Communication." The truth of a theorem depends on the validity 
+of the assumptions made and on the validity of the argument or 
+proof which is used to establish it. 
+
+All of this is pretty abstract. The best way to give some idea of 
+the meaning of theorem and proof is certainly by means of examples. 
+I cannot do this by asking the general reader to grapple, 
+one by one and in all their gory detail, with the difficult theorems 
+of communication theory. Really to understand thoroughly the 
+proofs of such theorems takes time and concentration even for one 
+with some mathematical background. At best, we can try to get 
+at the content, meaning, and importance of the theorems. 
+
+The expedient I propose to resort to is to give some examples 
+of simpler mathematical theorems and their proof. The first 
+example concerns a game called hex, or Nash. The theorem which 
+will be proved is that the player with first move can win. 
+
+Hex is played on a board which is an array of forty-nine hexagonal 
+cells or spaces, as shown in Figure 1-1, into which markers 
+may be put. One player uses black markers and tries to place them 
+so as to form a continuous, if wandering, path between the black 
+area at the left and the black area at the right. The other player uses 
+white markers and tries to place them so as to form a continuous, 
+if wandering, path between the white area at the top and the white 
+area at the bottom. The players play alternately, each placing one 
+marker per play. Of course, one player has to start first. 
+
+In order to prove that the first player can win, it is necessary 
+first to prove that when the game is played out, so that there is 
+either a black or a white marker in each cell, one of the players 
+must have won. 
+
+Theorem I: Either one player or the other wins. 
+
+Discussion: In playing some games, such as chess and ticktacktoe, 
+it may be that neither player will win, that is, that the game 
+will end in a draw. In matching heads or tails, one or the other 
+necessarily wins. What one must show to prove this theorem is 
+that, when each cell of the hex board is covered by either a black 
+or a white marker, either there must be a black path between the 
+black areas which will interrupt any possible white path between 
+the white areas or there must be a white path between the white 
+areas which will interrupt any possible black path between the 
+black areas, so that either white or black must have won. 
+
+Proof: Assume that each hexagon has been filled in with either 
+a black or a white marker. Let us start from the left-hand corner 
+of the upper white border, point I of Figure 1-2, and trace out the 
+boundary between white and black hexagons or borders. We will 
+proceed always along a side with black on our right and white on 
+our left. The boundary so traced out will turn at the successive 
+corners, or vertices, at which the sides of hexagons meet. At a 
+corner, or vertex, we can have only two essentially different 
+conditions. Either there will be two touching black hexagons on the 
+right and one white hexagon on the left, as in a of Figure 1-3, or 
+two touching white hexagons on the left and one black hexagon 
+on the right, as shown in b of Figure 1-3. We note that in either 
+case there will be a continuous black path to the right of the 
+boundary and a continuous white path to the left of the boundary. 
+We also note that in neither a nor b of Figure 1-3 can the boundary 
+cross or join itself, because only one path through the vertex has 
+black on the right and white on the left. We can see that these two 
+facts are true for boundaries between the black and white borders 
+and hexagons as well as for boundaries between black and white 
+hexagons. Thus, along the left side of the boundary there must be 
+a continuous path of white hexagons to the upper white border, 
+and along the right side of the boundary there must be a continuous 
+path of black hexagons to the left black border. As the 
+boundary cannot cross itself, it cannot circle indefinitely, but must 
+eventually reach a black border or a white border. If the boundary 
+reaches a black border or white border with black on its right and 
+white on its left, as we have prescribed, at any place except corner 
+II or corner III, we can extend the boundary further with black on 
+its right and white on its left. Hence, the boundary will reach either 
+point II or point III. If it reaches point II, as shown in Figure 1-2, 
+the black hexagons on the right, which are connected to the left 
+black border, will also be connected to the right black border, 
+while the white hexagons to the left will be connected to the upper 
+white border only, and black will have won. It is clearly impossible 
+for white to have won also, for the continuous band of adjacent 
+black cells from the left border to the right precludes a continuous 
+band of white cells to the bottom border. We see by similar argument 
+that, if the boundary reaches point III, white will have won. 
+
+Theorem II: The player with the first move can win. 
+
+Discussion: By can is meant that there exists a way, if only the 
+player were wise enough to know it. The method for winning would 
+consist of a particular first move (more than one might be allowable 
+but are not necessary) and a chart, formula, or other 
+specification or recipe giving a correct move following any possible 
+move made by his opponent at any subsequent stage of the game, such 
+that if, each time he plays, the first player makes the prescribed 
+move, he will win regardless of what moves his opponent may 
+make. 
+
+Proof: Either there must be some way of play which, if followed 
+by the first player, will insure that he wins or else, no matter how 
+the first player plays, the second player must be able to choose 
+moves which will preclude the first player from winning, so that he, 
+the second player, will win. Let us assume that the player with the 
+second move does have a sure recipe for winning. Let the player 
+with the first move make his first move in any way, and then, after 
+his opponent has made one move, let the player with the first 
+move apply the hypothetical recipe which is supposed to allow the 
+player with the second move to win. If at any time a move calls for 
+putting a piece on a hexagon occupied by a piece he has already 
+played, let him place his piece instead on any unoccupied space. 
+The designated space will thus be occupied. The fact that by 
+starting first he has an extra piece on the board may keep his 
+opponent from occupying a particular hexagon but not the player 
+with the extra piece. Hence, the first player can occupy the 
+hexagons designated by the recipe and must win. This is contrary to 
+the original assumption that the player with the second move can 
+win, and so this assumption must be false. Instead, it must be 
+possible for the player with the first move to win. 
+
+A mathematical purist would scarcely regard these proofs as 
+rigorous in the form given. The proof of theorem II has another 
+curious feature; it is not a constructive proof. That is, it does not 
+show the player with the first move, who can win in principle, how 
+to go about winning. We will come to an example of a constructive 
+proof in a moment. First, however, it may be appropriate to 
+philosophize a little concerning the nature of theorems and the need 
+for proving them. 
+
+Mathematical theorems are inherent in the rigorous statement 
+of the general problem or field. That the player with the first move 
+can win at hex is necessarily so once the game and its rules of play 
+have been specified. The theorems of Euclidean geometry are 
+necessarily so because of the stated postulates. 
+
+With sufficient intelligence and insight, we could presumably see 
+the truth of theorems immediately. The young Newton is said to 
+have found Euclid's theorems obvious and to have been impatient 
+with their proofs. 
+
+Ordinarily, while mathematicians may suspect or conjecture the 
+truth of certain statements, they have to prove theorems in order 
+to be certain. Newton himself came to see the importance of proof, 
+and he proved many new theorems by using the methods of Euclid. 
+
+By and large, mathematicians have to proceed step by step in 
+attaining sure knowledge of a problem. They laboriously prove one 
+theorem after another, rather than seeing through everything hi a 
+flash. Too, they need to prove the theorems in order to convince 
+others. 
+
+Sometimes a mathematician needs to prove a theorem to convince 
+himself, for the theorem may seem contrary to common 
+sense. Let us take the following problem as an example: Consider 
+the square, 1 inch on a side, at the left of Figure 1-4. We can specify 
+any point in the square by giving two numbers,/, the height of 
+the point above the base of the square, and x, the distance of the 
+point from the left-hand side of the square. Each of these numbers 
+will be less than one. For instance, the point shown will be 
+represented by 
+
+x = 0.547000 . . . (ending in an endless sequence of zeros) 
+y = 0312000 . . . (ending in an endless sequence of zeros) 
+
+Suppose we pair up points on the square with points on the line, 
+so that every point on the line is paired with just one point on the 
+square and every point on the square with just one point on the 
+line. If we do this, we are said to have mapped the square onto 
+the line in a one-to-one way, or to have achieved a one-to-one 
+mapping of the square onto the line. 
+
+Theorem: It is possible to map a square of unit area onto a line 
+of unit length in a one-to-one way.
+
+Proof: Take the successive digits of the height of the point in 
+the square and let them form the first, third, fifth, and so on digits 
+of a number x'. Take the digits of the distance of the point P from 
+the left side of the square, and let these be the second, fourth, 
+sixth, etc., of the digits of the number x f . Let x r be the distance of 
+the point P' from the left-hand end of the line. Then the point P r 
+maps the point P of the square onto the line uniquely, in a one- 
+to-one way. We see that changing either x or y will change x' to a 
+new and appropriate number, and changing x f will change x and 
+y. To each point x 9 y in the square corresponds just one point x' 
+on the line, and to each point x' on the line corresponds just one 
+point x y y in the square, the requirement for one-to-one mapping. 3 
+
+In the case of the example given before 
+
+x = 0.547000 . . . 
+y = 0.312000.. . 
+yf = 0.351427000 . . . 
+
+In the case of most points, including those specified by irrational 
+numbers, the endless string of digits representing the point will not 
+become a sequence of zeros nor will it ever repeat. 
+
+Here we have an example of a constructive proof. We show that 
+we can map each point of a square into a point on a line segment 
+in a one-to-one way by giving an explicit recipe for doing this. 
+Many mathematicians prefer constructive proofs to proofs which 
+
+2 This has been restricted for convenience; the size doesn't matter. 
+
+3 This proof runs into resolvable difficulties in the case of some numbers such as 
+Vfii, which can be represented decimally .5 followed by an infinite sequence of zeros 
+or .4 followed by an infinite sequence of nines. 
+
+are not constructive, and mathematicians of the intuitionist school 
+reject nonconstructive proofs in dealing with infinite sets, in which 
+it is impossible to examine all the members individually for the 
+property in question. 
+
+Let us now consider another matter concerning the mapping of 
+the points of a square on a line segment. Imagine that we move 
+a pointer along the line, and imagine a pointer simultaneously 
+moving over the face of the square so as to point out the points 
+in the square corresponding to the points that the first pointer 
+indicates on the line. We might imagine (contrary to what we shall 
+prove) the following: If we moved the first pointer slowly and 
+smoothly along the line, the second pointer would move slowly and 
+smoothly over the face of the square. All the points lying in a small 
+cluster on the line would be represented by points lying in a small 
+cluster on the face of the square. If we moved the pointer a short 
+distance along the line, the other pointer would move a short 
+distance over the face of the square, and if we moved the pointer 
+a shorter distance along the line, the other pointer would move a 
+shorter distance across the face of the square, and so on. If this 
+were true we could say that the one-to-one mapping of the points 
+of the square into points on the line was continuous. 
+
+However, it turns out that a one-to-one mapping of the points 
+in a square into the points on a line cannot be continuous. As we 
+move smoothly along a curve through the square, the points on 
+the line which represent the successive points on the square 
+necessarily jump around erratically, not only for the mapping described 
+above but for any one-to-one mapping whatever. Any one-to-one 
+mapping of the square onto the line is discontinuous. 
+
+Theorem: Any one-to-one mapping of a square onto a line must 
+be discontinuous. 
+
+Proof: Assume that the one-to-one mapping is continuous. If 
+this is to be so then all the points along some arbitrary curve AB 
+of Figure 1-5 on the square must map into the points lying between 
+the corresponding points A f and B f . If they did not, in moving along 
+the curve in the square we would either jump from one end of the 
+line to the other (discontinuous mapping) or pass through one 
+point on the line twice (not one-to-one mapping). Let us now 
+choose a point C to the left of line segment AB' and D r to the 
+right of AB' and locate the corresponding points C and D in the 
+square. Draw a curve connecting C and > and crossing the curve 
+from A to B. Where the curve crosses the curve AB it will have a 
+point in common with AB; hence, this one point of CD must map 
+into a point lying between A' and B f , and all other points which 
+are not on AB must map to points lying outside of A'B', either to 
+the left or the right of A 'B'. This is contrary to our assumption that 
+the mapping was continuous, and so the mapping cannot be 
+continuous. 
+
+We shall find that these theorems, that the points of a square 
+can be mapped onto a line and that the mapping is necessarily 
+discontinuous, are both important in communication theory, so we 
+have proved one theorem which, unlike those concerning hex, will 
+be of some use to us. 
+
+Mathematics is a way of finding out, step by step, facts which 
+are inherent in the statement of the problem but which are not 
+immediately obvious. Usually, in applying mathematics one must 
+first hit on the facts and then verify them by proof. Here we come 
+upon a knotty problem, for the proofs which satisfied mathema- 
+ticians of an earlier day do not satisfy modern mathematicians. 
+
+In our own day, an irascible minor mathematician who reviewed 
+Shannon's original paper on communication theory expressed 
+doubts as to whether or not the author's mathematical intentions 
+were honorable. Shannon's theorems are true, however, and proofs 
+have been given which satisfy even rigor-crazed mathematicians. 
+The simple proofs which I have given above as illustrations of 
+mathematics are open to criticism by purists. 
+
+What I have tried to do is to indicate the nature of mathematical 
+reasoning, to give some idea of what a theorem is and of how it 
+may be proved. With this in mind, we will go on to the mathe- 
+matical theory of communication, its theorems, which we shall not 
+really prove, and to some implications and associations which 
+extend beyond anything that we can establish with mathematical 
+certainty. 
+
+As I have indicated earlier in this chapter, communication 
+theory as Shannon has given it to us deals in a very broad and 
+abstract way with certain important problems of communication 
+and information, but it cannot be applied to all problems which 
+we can phrase using the words communication and information 
+in their many popular senses. Communication theory deals with 
+certain aspects of communication which can be associated and 
+organized in a useful and fruitful way, just as Newton's laws of 
+motion deal with mechanical motion only, rather than with all the 
+named and indeed different phenomena which Aristotle had in 
+mind when he used the word motion. 
+
+To succeed, science must attempt the possible. We have no 
+reason to believe that we can unify all the things and concepts for 
+which we use a common word. Rather we must seek that part of 
+experience which can be related. When we have succeeded in 
+relating certain aspects of experience we have a theory. Newton's 
+laws of motion are a theory which we can use in dealing with 
+mechanical phenomena. Maxwell's equations are a theory which 
+we can use in connection with electrical phenomena. Network 
+theory we can use in connection with certain simple sorts of elec- 
+trical or mechanical devices. We can use arithmetic very generally 
+in connection with numbers of men, stones, or stars, and geometry 
+in measuring land, sea, or galaxies. 
+
+Unlike Newton's laws of motion and Maxwell's equations, which 
+are strongly physical in that they deal with certain classes of 
+physical phenomena, communication theory is abstract in that it 
+applies to many sorts of communication, written, acoustical, or 
+electrical. Communication theory deals with certain important but 
+abstract aspects of communication. Communication theory pro- 
+ceeds from clear and definite assumptions to theorems concerning 
+information sources and communication channels. In this it is 
+essentially mathematical, and in order to understand it we must 
+understand the idea of a theorem as a statement which must be 
+proved, that is, which must be shown to be the necessary conse- 
+quence of a set of initial assumptions. This is an idea which is the 
+very heart of mathematics as mathematicians understand it. 
+
+
+CHAPTER II The Origins of 
+
+Information Theory 
+
+
+MEN HAVE BEEN at odds concerning the value of history. Some 
+have studied earlier times in order to find a universal system of 
+the world, in whose inevitable unfolding we can see the future as 
+well as the past. Others have sought in the past prescriptions for 
+success in the present. Thus, some believe that by studying scientific 
+discovery in another day we can learn how to make discoveries. 
+On the other hand, one sage observed that we learn nothing from 
+history except that we never learn anything from history, and 
+Henry Ford asserted that history is bunk. 
+
+All of this is as far beyond me as it is beyond the scope of this 
+book. I will, however, maintain that we can learn at least two 
+things from the history of science. 
+
+One of these is that many of the most general and powerful 
+discoveries of science have arisen, not through the study of phe- 
+nomena as they occur in nature, but, rather, through the study of 
+phenomena in man-made devices, in products of technology, if you 
+will. This is because the phenomena in man's machines are simpli- 
+fied and ordered in comparison with those occurring naturally, and 
+it is these simplified phenomena that man understands most easily. 
+
+Thus, the existence of the steam engine, in which phenomena 
+involving heat, pressure, vaporization, and condensation occur in a 
+simple and orderly fashion, gave tremendous impetus to the very 
+powerful and general science of thermodynamics. We see this 
+especially in the work of Carnot. 1 Our knowledge of aerodynamics 
+and hydrodynamics exists chiefly because airplanes and ships 
+exist, no because of the existence of birds and fishes. Our knowl- 
+edge of electricity came mainly not from the study of lightning, 
+but from the study of man's artifacts. 
+
+Similarly, we shall find the roots of Shannon's broad and ele- 
+gant theory of communication in the simplified and seemingly 
+easily intelligible phenomena of telegraphy. 
+
+The second thing that history can teach us is with what difficulty 
+understanding is won. Today, Newton's laws of motion seem 
+simple and almost inevitable, yet there was a day when they were 
+undreamed of, a day when brilliant men had the oddest notions 
+about motion. Even discoverers themselves sometimes seem in- 
+credibly dense as well as inexplicably wonderful. One might expect 
+of Maxwell's treatise on electricity and magnetism a bold and 
+simple pronouncement concerning the great step he had taken. 
+Instead, it is cluttered with all sorts of such lesser matters as once 
+seemed important, so that a naive reader might search long to find 
+the novel step and to restate it in the simple manner familiar to us. 
+It is true, however, that Maxwell stated his case clearly elsewhere. 
+
+Thus, a study of the origins of scientific ideas can help us to value 
+understanding more highly for its having been so dearly won. We 
+can often see men of an earlier day stumbling along the edge of 
+discovery but unable to take the final step. Sometimes we are 
+tempted to take it for them and to say, because they stated many 
+of the required concepts in juxtaposition, that they must really have 
+reached the general conclusion. This, alas, is the same trap into 
+which many an ungrateful fellow falls in his own life. When some- 
+one actually solves a problem that he merely has had ideas about, 
+he believes that he understood the matter aU along. 
+
+Properly understood, then, the origins of an idea can help to 
+show what its real content is; what the degree of understanding 
+was before the idea came along and how unity and clarity have 
+been attained. But to attain such understanding we must trace the 
+actual course of discovery, not some course which we feel discovery 
+
+1 N. L. S. Carnot (1796-1832) first proposed an ideal expansion of gas (the Carnot 
+cycle) which will extract the maximum possible mechanical energy from the thermal 
+energy of the steam. 
+
+should or could have taken, and we must see problems (if we can) 
+as the men of the past saw them, not as we see them today. 
+
+In looking for the origin of communication theory one is apt to 
+fall into an almost trackless morass. I would gladly avoid this 
+entirely but cannot, for others continually urge their readers to 
+enter it. I only hope that they will emerge unharmed with the help 
+of the following grudgingly given guidance. 
+
+A particular quantity called entropy is used in thermodynamics 
+and in statistical mechanics. A quantity called entropy is used in 
+communication theory. After all, thermodynamics and statistical 
+mechanics are older than communication theory. Further, in a 
+paper published in 1929, L. Szilard, a physicist, used an idea of 
+information in resolving a particular physical paradox. From these 
+facts we might conclude that communication theory somehow grew 
+out of statistical mechanics. 
+
+This easy but misleading idea has caused a great deal of confu- 
+sion even among technical men. Actually, communication theory 
+evolved from an effort to solve certain problems in the field of 
+electrical communication. Its entropy was called entropy by mathe- 
+matical analogy with the entropy of statistical mechanics. The 
+chief relevance of this entropy is to problems quite different from 
+those which statistical mechanics attacks. 
+
+In thermodynamics, the entropy of a body of gas depends on its 
+temperature, volume, and mass and on what gas it is just as the 
+energy of the body of gas does. If the gas is allowed to expand in 
+a cylinder, pushing on a slowly moving piston, with no flow of heat 
+to or from the gas, the gas will become cooler, losing some of its 
+thermal energy. This energy appears as work done on the piston. 
+The work may, for instance, lift a weight, which thus stores the 
+energy lost by the gas. 
+
+This is a reversible process. By this we mean that if work is done 
+in pushing the piston slowly back against the gas and so recom- 
+pressing it to its original volume, the exact original energy, pres- 
+sure, and temperature will be restored to the gas. In such a 
+reversible process, the entropy of the gas remains constant, while 
+its energy changes. 
+
+Thus, entropy is an indicator of reversibility; when there is no 
+change of entropy, the process is reversible. In the example 
+discussed above, energy can be transferred repeatedly back and forth 
+between thermal energy of the compressed gas and mechanical 
+energy of a lifted weight. 
+
+Most physical phenomena are not reversible. Irreversible 
+phenomena always involve an increase of entropy. 
+
+Imagine, for instance, that a cylinder which allows no heat flow 
+in or out is divided into two parts by a partition, and suppose that 
+there is gas on one side of the partition and none on the other. 
+Imagine that the partition suddenly vanishes, so that the gas 
+expands and fills the whole container. In this case, the thermal 
+energy remains the same, but the entropy increases. 
+
+Before the partition vanished we could have obtained mechanical 
+energy from the gas by letting it flow into the empty part of 
+the cylinder through a little engine. After the removal of the 
+partition and the subsequent increase in entropy, we cannot do this. 
+The entropy can increase while the energy remains constant in 
+other similar circumstances. For instance, this happens when heat 
+flows from a hot object to a cold object. Before the temperatures 
+were equalized, mechanical work could have been done by making 
+use of the temperature difference. After the temperature difference 
+has disappeared, we can no longer use it in changing part of the 
+thermal energy into mechanical energy. 
+
+Thus, an increase in entropy means a decrease in our ability to 
+change thermal energy, the energy of heat, into mechanical energy. 
+An increase of entropy means a decrease of available energy. 
+
+While thermodynamics gave us the concept of entropy, it does 
+not give a detailed physical picture of entropy, in terms of positions 
+and velocities of molecules, for instance. Statistical mechanics does 
+give a detailed mechanical meaning to entropy in particular cases. 
+In general, the meaning is that an increase in entropy means a 
+decrease in order. But, when we ask what order means, we must 
+in some way equate it with knowledge. Even a very complex 
+arrangement of molecules can scarcely be disordered if we know 
+the position and velocity of every one. Disorder in the sense in 
+which it is used in statistical mechanics involves unpredictability 
+based on a lack of knowledge of the positions and velocities of 
+molecules. Ordinarily we lack such knowledge when the 
+arrangement of positions and velocities is "complicated." 
