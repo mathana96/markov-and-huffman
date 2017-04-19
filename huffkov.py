@@ -54,7 +54,7 @@ def encode_decode(dictionary, text):
             if text.startswith(k):
                 res += dictionary[k]
                 text = text[len(k):]
-    print(res)
+    return(res)
 
 
 
@@ -103,15 +103,18 @@ rv = distribution(input)
 huffman = encode(rv)
 # print(huffman)
 
+print('\nRV representation ...\n')
 print('Entropy of RV (in bits) = ', entropy(rv.values()))
 print('Huffman L(C) (in bits) = ', codewordlength(rv, huffman))
 
-# huffmanDict = listToDict(huffman)
-
-# print(huffmanDict)
 data_first_dict = huffman_data_first_dict(huffman)
+code_first_dict = huffman_code_first_dict(huffman)
 short_text = input[0:100]
 
-encode_decode(data_first_dict, short_text)
+huffman_encoded = encode_decode(data_first_dict, short_text)
+huffman_decoded = encode_decode(code_first_dict, huffman_encoded)
 
-
+if (short_text == huffman_decoded):
+    print('\nYES !! decoded(endoded(message)) == message')
+else:
+    print('\nERROR !! decoded(endoded(message)) != message')
