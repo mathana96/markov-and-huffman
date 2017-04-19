@@ -1,5 +1,5 @@
-# http://www.techrepublic.com/article/huffman-coding-in-python/
-
+# https://rosettacode.org/wiki/Huffman_coding#Python
+import numpy as np
 import collections
 from heapq import heappush, heappop, heapify
 from collections import defaultdict
@@ -27,6 +27,12 @@ def distribution(input):
     print (freq)
     return relfreq
 
+def entropy(data):
+    cleanData=[x for x in data if x!=0]
+    sumData=sum(cleanData)
+    probs=np.array(cleanData)/sumData
+    return(-sum(probs*np.log2(probs)))
+
 
 source = open("input.txt")
 input = source.read()
@@ -39,8 +45,12 @@ print('Length of text message (in bits): ', 7*len(input))
 rv = distribution(input)
 print(rv)
 
-huff = encode(rv)
+huffman = encode(rv)
+print(huffman)
 
-print(huff)
+
+
+print('Entropy of RV (in bits) = ',entropy(rv.values()))
+
 
 
