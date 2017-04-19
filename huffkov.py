@@ -19,12 +19,49 @@ def encode(symb2freq):
     return sorted(heappop(heap)[1:], key=lambda p: (len(p[-1]), p))
  
 
+def huffman_code_first_dict(huffman):
+	data = []
+	code = []
+	for item in huffman:
+		data.append(item[0])
+		code.append(item[1])
+
+	return dict(zip(code,data))
+
+def huffman_data_first_dict(huffman):
+	data = []
+	code = []
+	for item in huffman:
+		data.append(item[0])
+		code.append(item[1])
+
+	return dict(zip(data,code))
+
+
+# def generate(dictionary, text):
+#     res = ""
+#     while text:
+#         for k, v in dictionary.items():
+#             if text.startswith(v):
+#                 res += dictionary[v]
+#                 text = text[len(v):]
+#     print(res)
+    
+def encode_decode(dictionary, text):
+    res = ""
+    while text:
+        for k in dictionary:
+            if text.startswith(k):
+                res += dictionary[k]
+                text = text[len(k):]
+    print(res)
+
+
 
 def distribution(input):
     freq = collections.Counter(input)
     n = float(len(input))
     relfreq = dict((k, v/n) for k, v in freq.items())
-    print (freq)
     return relfreq
 
 def entropy(data):
@@ -61,12 +98,20 @@ print('Length of text message (in bits): ', 7*len(input))
 
 # Construct probabilities using observed frequencies in given string of text
 rv = distribution(input)
-print(rv)
+# print(rv)
 
 huffman = encode(rv)
-print(huffman)
+# print(huffman)
 
 print('Entropy of RV (in bits) = ', entropy(rv.values()))
 print('Huffman L(C) (in bits) = ', codewordlength(rv, huffman))
+
+# huffmanDict = listToDict(huffman)
+
+# print(huffmanDict)
+data_first_dict = huffman_data_first_dict(huffman)
+short_text = input[0:100]
+
+encode_decode(data_first_dict, short_text)
 
 
