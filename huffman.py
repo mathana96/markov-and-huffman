@@ -1,4 +1,6 @@
 # https://rosettacode.org/wiki/Huffman_coding#Python
+# http://stackoverflow.com/questions/33089660/decoding-a-huffman-code-with-a-dictionary
+
 import numpy as np
 import collections
 from heapq import heappush, heappop, heapify
