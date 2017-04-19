@@ -34,6 +34,24 @@ def entropy(data):
     return(-sum(probs*np.log2(probs)))
 
 
+def codewordlength(rv, huffman):
+	cwlList =[]
+	for k, v in rv.items():
+		for code in huffman:
+			bits = code[1]
+			bitlength = len(bits)
+			if (code[0] == k):
+				cwlList.append(v*bitlength)
+	return sum(cwlList)
+
+
+	# cwl = np.multiply(rv,len(huffman))
+	# print(cwl)
+
+
+
+
+
 source = open("input.txt")
 input = source.read()
 
@@ -48,9 +66,7 @@ print(rv)
 huffman = encode(rv)
 print(huffman)
 
-
-
-print('Entropy of RV (in bits) = ',entropy(rv.values()))
-
+print('Entropy of RV (in bits) = ', entropy(rv.values()))
+print('Huffman L(C) (in bits) = ', codewordlength(rv, huffman))
 
 
