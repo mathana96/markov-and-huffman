@@ -7,7 +7,6 @@ from heapq import heappush, heappop, heapify
 from collections import defaultdict
  
 def encode(symb2freq):
-    """Huffman encode the given dict mapping symbols to weights"""
     heap = [[wt, [sym, ""]] for sym, wt in symb2freq.items()]
     heapify(heap)
     while len(heap) > 1:
@@ -38,16 +37,6 @@ def huffman_data_first_dict(huffman):
 		code.append(item[1])
 
 	return dict(zip(data,code))
-
-
-# def generate(dictionary, text):
-#     res = ""
-#     while text:
-#         for k, v in dictionary.items():
-#             if text.startswith(v):
-#                 res += dictionary[v]
-#                 text = text[len(v):]
-#     print(res)
     
 def encode_decode(dictionary, text):
     res = ""
@@ -57,8 +46,6 @@ def encode_decode(dictionary, text):
                 res += dictionary[k]
                 text = text[len(k):]
     return(res)
-
-
 
 def distribution(input):
     freq = collections.Counter(input)
