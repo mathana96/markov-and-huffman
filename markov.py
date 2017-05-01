@@ -80,7 +80,6 @@ def normalise_matrix():
 def entropy_rate():
     sumo = 0.0;
     for k in range(0, len(matrix_dict_num)):
-#         print(k)
         row = matrix[k, :]
         ent = entropy(row)
         row_char = matrix_dict_num[k]
@@ -89,7 +88,6 @@ def entropy_rate():
     return sumo
  
 def huffman_markov():
-    huffman_markov_code = []
     sumo = 0.0;
     helper = {}
 #     for k in range(0, len(matrix_dict_num)):
@@ -97,30 +95,48 @@ def huffman_markov():
     k = 0
     for m in range(k, len(matrix_dict_num)):
         if matrix[k, m] != 0.0:
-#             print(m)
             c = matrix_dict_num[m]
             helper[c] = matrix[k, m]
-#             print(helper)
-            code = encode(helper)
-#             print(code)
-            huffman_markov_code.append(code)
-
-    return huffman_markov_code
+    code = encode(helper)
+    return code
     
 def codewordlength(rv, huffman):
     cwlList =[]
-#     print(huffman)
     for k, v in rv.items():
         for code in huffman:
             if code[1]:
-#                 print(code[1])
                 bits = code[1]
                 bitlength = len(bits)
                 if (code[0] == k):
                     cwlList.append(v*bitlength)
     return sum(cwlList)
 
-    
+def huffman_code_first_dict(huffman):
+    data = []
+    code = []
+    for item in huffman:
+        data.append(item[0])
+        code.append(item[1])
+
+    return dict(zip(code,data))
+
+def huffman_data_first_dict(huffman):
+    data = []
+    code = []
+    for item in huffman:
+        data.append(item[0])
+        code.append(item[1])
+
+    return dict(zip(data,code))
+def encode_decode(dictionary, text):
+    res = ""
+    while text:
+        for k in dictionary:
+            if text.startswith(k):
+                res += dictionary[k]
+                text = text[len(k):]
+    return(res)
+   
 source = open("input.txt")
 input = source.read()
 
@@ -128,12 +144,10 @@ print('Markov chain representation ...')
 
 rv = distribution(input)
 
-# print(rv)
 
 matrix_dict = buildMatrixDictChar(rv)
 matrix_dict_num = buildMatrixDictNum(rv)
 
-# print(matrix_dict)
 populateMatrix()
 normalise_matrix()
 
@@ -145,39 +159,48 @@ huffman = encode(rv)
 
 huff_kov = huffman_markov()
 
-# print(huff_kov)
 
-# print('Huffman L(C) for Markov chain (in bits) = ', codewordlength(rv,huff_kov))
+print('Huffman L(C) for Markov chain (in bits) = ', codewordlength(rv,huff_kov))
+
+print('Test 1 - Small sample (with no unique sequence pair,  eg 'u' is only char following 'q') ...')
+
+sample = input[0:30]
+print('Length of source message (in bits) = ', len(sample) * 7)
+
+# encoded_markov
+
+print('Length of encoded message (in bits) = ', len(encoded_markov))
+
+# decoded_markov
+
+
+# huffman_encoded = encode_decode(data_first_dict, short_text)
+# huffman_decoded = encode_decode(code_first_dict, huffman_encoded) 
+
 
 # if (len(sample) < 50):
-# 	print(sample)
-# 	print(encoded_markov)
-# 	print(decoded_markov)
+#   print(sample)
+#   print(huffman_encoded)
+#   print(huffman_decoded)
 
 
 # if (sample == decoded_markov):
-# 	print('YES !! decoded(endoded(message)) == message')
+#   print('YES !! decoded(endoded(message)) == message')
 # else:
-# 	print('ERROR !! decoded(endoded(message)) != message')
-# 	length = len(decoded_markov)
-# 	for i in range(0, length):
-# 		print(sample[k], decoded_markov[k])
+#   print('ERROR !! decoded(endoded(message)) != message')
+#   length = len(decoded_markov)
+#   for i in range(0, length):
+#       print(sample[k], decoded_markov[k])
 
-# print('Test 1 - Small sample (with no unique sequence pair,  eg 'u' is only char following 'q') ...')
+
 # sample = input
 
-# print('Length of source message (in bits) = ', len(sample) * 7)
 
-# # encoded_markov
-
-# print('Length of encoded message (in bits) = ', len(encoded_markov))
-
-# # decoded_markov
 
 # if (sample == decoded_markov):
-# 	print('YES !! decoded(endoded(message)) == message')
+#   print('YES !! decoded(endoded(message)) == message')
 # else:
-# 	print('ERROR !! decoded(endoded(message)) != message')
-# 	length = len(decoded_markov)
-# 	for i in range(0, length):
-# 		print(sample[k], decoded_markov[k])
+#   print('ERROR !! decoded(endoded(message)) != message')
+#   length = len(decoded_markov)
+#   for i in range(0, length):
+#       print(sample[k], decoded_markov[k])
