@@ -30,7 +30,14 @@ def populateMatrix():
             current_no = matrix_dict[current_char]
             next_no = matrix_dict[next_char]
             matrix[current_no, next_no] += 1
-            
+
+def normalise_matrix():
+    for k in range(0, 127):
+        row = matrix[k, :]
+        summ = float(sum(row))
+        for m in range(0, 127):
+            if matrix[k, m] != 0:
+                matrix[k, m] /= summ
 
             
 source = open("input.txt")
@@ -39,8 +46,11 @@ rv = distribution(input)
 
 matrix_dict = buildMatrixDict(rv)
 
-print(matrix_dict)
+# print(matrix_dict)
 populateMatrix()
+normalise_matrix()
+
+
 
 # print(matrix[47, :])
-# print(matrix)
+print(matrix)
