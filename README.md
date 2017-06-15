@@ -10,4 +10,4 @@ In this assignment you are asked to implement in either Octave or Java code to
 
 The implementation can be in Octave or Java, or Python and the required functions/methods are described in the following pages.
 
-** Full spec can be found [here](https://denflynn.bitbucket.io/NetworkTheory/08-Markov_Chains/02-Coding_Assignment/00-Outline.html)**
+**Full spec can be found [here](https://denflynn.bitbucket.io/NetworkTheory/08-Markov_Chains/02-Coding_Assignment/00-Outline.html)**
