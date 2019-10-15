@@ -5,7 +5,7 @@ import numpy as np
 import collections
 from heapq import heappush, heappop, heapify
 from collections import defaultdict
- 
+
 def encode(symb2freq):
     heap = [[wt, [sym, ""]] for sym, wt in symb2freq.items()]
     heapify(heap)
@@ -18,25 +18,25 @@ def encode(symb2freq):
             pair[1] = '1' + pair[1]
         heappush(heap, [lo[0] + hi[0]] + lo[1:] + hi[1:])
     return sorted(heappop(heap)[1:], key=lambda p: (len(p[-1]), p))
- 
+
 
 def huffman_code_first_dict(huffman):
-	data = []
-	code = []
-	for item in huffman:
-		data.append(item[0])
-		code.append(item[1])
+    data = []
+    code = []
+    for item in huffman:
+        data.append(item[0])
+        code.append(item[1])
 
-	return dict(zip(code,data))
+    return dict(zip(code,data))
 
 def huffman_data_first_dict(huffman):
-	data = []
-	code = []
-	for item in huffman:
-		data.append(item[0])
-		code.append(item[1])
+    data = []
+    code = []
+    for item in huffman:
+        data.append(item[0])
+        code.append(item[1])
 
-	return dict(zip(data,code))
+    return dict(zip(data,code))
     
 def encode_decode(dictionary, text):
     res = ""
@@ -45,7 +45,7 @@ def encode_decode(dictionary, text):
             if text.startswith(k):
                 res += dictionary[k]
                 text = text[len(k):]
-    return(res)
+    return res
 
 def distribution(input):
     freq = collections.Counter(input)
@@ -61,22 +61,13 @@ def entropy(data):
 
 
 def codewordlength(rv, huffman):
-	cwlList =[]
-	for k, v in rv.items():
-		for code in huffman:
-			bits = code[1]
-			bitlength = len(bits)
-			if (code[0] == k):
-				cwlList.append(v*bitlength)
-	return sum(cwlList)
-
-
-	# cwl = np.multiply(rv,len(huffman))
-	# print(cwl)
-
-
-
-
+        cwlList =[]
+        for k, v in rv.items():
+            for code in huffman:
+                bits = code[1]
+                if (code[0] == k):
+                    cwlList.append(v*len(bits))
+        return sum(cwlList)
 
 source = open("input.txt")
 input = source.read()
@@ -87,10 +78,8 @@ print('Length of text message (in bits): ', 7*len(input))
 
 # Construct probabilities using observed frequencies in given string of text
 rv = distribution(input)
-# print(rv)
 
 huffman = encode(rv)
-# print(huffman)
 
 print('\nRV representation ...\n')
 print('Entropy of RV (in bits) = ', entropy(rv.values()))
